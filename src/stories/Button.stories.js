@@ -37,6 +37,16 @@ export const Primary = {
   },
 };
 
+Primary.story = {
+  name: "Embedded Figma File",
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/file/CvoAcROScm0QimjIPusLNL/Button-(Community)?type=design&t=wyi9ajnU4lut1hM4-1",
+    },
+  },
+};
+
 export const Secondary = {
   args: {
     label: 'Button',
